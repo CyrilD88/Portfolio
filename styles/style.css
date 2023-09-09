@@ -26,6 +26,7 @@ header p{
 header, a{
     text-decoration: none;
     color: inherit;
+    font-weight: 500;
 }
 
 .nav-header{
@@ -42,11 +43,21 @@ header, a{
     display: flex;
     justify-content:space-around;
     align-items: center;
+
 }
 
+.ul-header li{
+    transition: 0.3s;
+}
 
 .ul-header li:hover{
     background: #0F0F0F;
+    color: #0ef;
     
 }
+.active{
+    color: #0ef;
+}
 
+
+/* Première section */
